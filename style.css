@@ -258,11 +258,11 @@ footer{
   }
 }
 
-.image-container{
+/*.image-container{
 	overflow: auto;
 	white-space: nowrap;
 	padding: 10px;
-}
+}*/
 
 .image-container{
 	padding: 10px;
