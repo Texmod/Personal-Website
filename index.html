@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Porfolio</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Personal Website">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Swachha Raj Baidya">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="title">
+		<img src="images/jack.png">
+		<h1>Swachha Raj Baidya</h1>
+	</div>
+	<nav>
+		<ul>
+			<li><a href="#" class="options">Home</a></li>
+			<li><a href="about.html" class="options">About</a></li>
+			<li><a href="gallery.html" class="options">Gallery</a></li>
+			<li><a href="#title-academic" class="options">Academic</a></li>
+			<li><a href="#info-contact" class="options">Contact</a></li>
+		</ul>
+		<div class="dropdown">
+			<button>Play Games</button>
+			<div class="dropdown-options">
+				<a href="games/broman/index.html">Broman</a></br>
+				<a href="games/broplane/index.html">Broplane</a>
+			</div>
+		</div>
+	</nav>
+	<div class="photo-scroll">
+		<img src="images/landscape.jpg">
+		<p class="quote">"Welcome"</p>
+	</div>
+	<h3 id="title-academic">Academic Info</h3>
+	<div class="academic-info">
+		<div class="photo-academic">
+			<div class="academic">
+				<a href="https://www.avm.edu.np"><img src="images/avm.jpg">
+				<p>School<br>AVM<br>Manbhawan, Lalitpur</p></a>
+			</div>
+			<div class="academic">
+				<a href="https://www.avm.edu.np"><img src="images/avm.jpg">
+				<p>+2<br>AVM College<br>Manbhawan, Lalitpur</p></a>
+			</div>
+			<div class="academic">
+				<a href="https://nagarjunacollege.edu.np"><img src="images/ncit.jpg">
+				<p>Bachelor<br>NCIT<br>Sankhamul, Lalitpur</p></a>
+			</div>		
+		</div>
+	</div>
+	<div class="info">
+		<div class="info-family">
+			<h3>Family Members</h3>
+			<table border="1px" cellspacing="0px">
+				<tr>
+					<td>SN</td>
+					<td>Name</td>
+					<td>Relation</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Nirmala</td>
+					<td>Mom</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Pabitra</td>
+					<td>Dad</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Samriddhi</td>
+					<td>Sister</td>
+				</tr>
+			</table>
+		</div>
+		<div class="info-contact" id="info-contact">
+			<h3>Contact Form</h3>
+			<form>
+				<div class="row">
+					<div>
+						<label>Name</label></br>
+						<input type="text" name="name">
+					</div>
+					<div>
+						<label>PhoneNo</label></br>
+						<input type="number" name="phoneno">
+					</div>
+				</div>
+				<div class="row">
+					<div>
+						<label>Gmail</label></br>
+						<input type="text" name="gmail">
+					</div>
+					<div>
+						<label>Website</label></br>
+						<input type="text" name="website">
+					</div>
+				</div>
+				<input type="submit" name="Submit" class="submit">
+			</form>
+		</div>
+	</div>
+	<footer>
+		<h3>Copyright @ 2024 Swachha Raj Baidya</h3>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
