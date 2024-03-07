@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+  	font-family: "Montserrat", sans-serif;
+ 	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+}
+
+img{
+	cursor: pointer;
+}
+
+body{
+	display: flex;
+}
+
+.sidebar{
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 25px;
+	width: 15%;
+	height: 100%;
+	background: #1b2525;
+	color: white;
+}
+
+.sidebar h3{
+	border-bottom: 1.1px solid white;
+	padding-bottom: 4px;
+}
+
+.sidebar img{
+	border-radius: 50%;
+	width: 65%;
+	height: 20%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	background: white;
+}
+
+.sidebar ul li{
+	margin-top: 20px;
+}
+
+.sidebar .info ul{
+	list-style: none;
+	margin-bottom: 30px;
+}
+
+.sidebar .list ul{
+	list-style: disc;
+	margin-bottom: 30px;
+	padding-left: 20px;
+}
+
+.main{
+	padding: 25px;
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 100%;
+}
+
+.main p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+.main span{
+	font-size: 40px;
+}
+
+.main span small{
+	font-size: 25px;
+}
+
+.main .experience h3{
+	border-bottom: 1.1px solid black;
+}
+
+.main .experience h4{
+	margin-top: 5px;
+}
+
+.main .experience fieldset{
+	border: 0px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.main .reference h3{
+	list-style: none;
+}
+
+.main .reference ul{
+	margin-top: 10px;
+	list-style: none;
+}
+
+.main .reference h3{
+	border-bottom: 1.1px solid black;
+	margin-bottom: 20px;
+}
+
+.main .reference .reference-container{
+	display: flex;
+}
+
+.main .reference .reference-container div{
+	width: 50%;
+}
