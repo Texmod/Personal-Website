@@ -289,7 +289,7 @@ footer{
 	margin-left: 2%;
 	margin-bottom: 10%;
 	border-radius: 4px;
-	width: 50%;
+	width: 100%;
 }
 
 .section{
@@ -358,7 +358,7 @@ footer{
 	}
 
 	.about{
-		width: 70%;
+		width: 95vw;
 	}
 
 	.section img{
@@ -380,6 +380,8 @@ footer{
 	}
 
 	nav{
+		overflow: none;
+		transition: 0.5s;
 		display: block;
 	}
 	nav ul{
