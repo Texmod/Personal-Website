@@ -279,7 +279,7 @@ footer{
 }
 
 .image-container img{
-	object-fit: contain;
+	object-fit: fill;
 }
 
 .about{
@@ -358,12 +358,13 @@ footer{
 	}
 
 	.about{
-		width: 100%;
+		width: 70%;
 	}
 
 	.section img{
 		width: 100vw;
-		margin-left: 20px;
+		margin-left: 0px;
+		margin-bottom: 20px;
 	}
 	nav .dropdown{
 		width: 100px;
