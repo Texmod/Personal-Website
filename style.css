@@ -342,7 +342,7 @@ footer{
 
 	.academic-info{
 		margin-top: 40px;
-		padding-left: 7px;
+		padding-left: 4px;
 	}
 
 	.info{
@@ -362,7 +362,6 @@ footer{
 	.section{
 		flex-wrap: wrap;
 	}
-
 
 	.section img{
 		width: 100vw;
@@ -452,7 +451,7 @@ footer{
 	.info-contact .submit{
 		margin-left: 40%;
 	}
-	
+
 	.dropdown button{
 		margin-left: 20px;
 		display: flex;
