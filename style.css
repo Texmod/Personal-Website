@@ -328,7 +328,7 @@ footer{
 	}
 	.photo-scroll .quote{
 		font-size: 50px;
-		position: absolute;
+		position: fixed;
 	  	top: 50%;
 	  	left: 50%;
 		transform: translate(-50%, -50%);
@@ -357,9 +357,6 @@ footer{
 		flex-wrap: wrap;
 	}
 
-	.about{
-		width: 95vw;
-	}
 
 	.section img{
 		width: 100vw;
@@ -383,15 +380,23 @@ footer{
 
 	.dropdown button{
 		margin-left: 5px;
-		padding-right: 15px;
+		padding-right: 30px;
 	}
 	.image-container img{
 		max-width: 100%;
 		height: auto;
 	}
-	
+
+	.about{
+		width: 95vw;
+	}
+
+	.about .text{
+		width: 80%;
+	}
+
 	.info h3{
-		margin-left: 30%;
+		margin-left: 25%;
 	}
 }
 
