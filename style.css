@@ -452,4 +452,10 @@ footer{
 	.info-contact .submit{
 		margin-left: 40%;
 	}
+	
+	.dropdown button{
+		margin-left: 20px;
+		display: flex;
+		align-items: center;
+	}
 }
