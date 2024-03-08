@@ -41,6 +41,7 @@ img{
 
 nav{
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	padding: 10px;
 	border-top: 1px solid black;
@@ -72,6 +73,10 @@ nav ul a:hover{
 	color: black;
 	background-color: white;
 	padding: 10px 20px 10px 20px;
+}
+
+.menu{
+	display: none;
 }
 
 nav .dropdown{
@@ -345,17 +350,32 @@ footer{
 		width: 100vw;
 		margin-left: 20px;
 	}
+	.menu{
+		display: block;
+		color: white;
+	}
+	nav .dropdown{
+		width: 100px;
+		margin-left: 0px;
+		margin-right: 10px;
+	}
+	nav{
+		display: block;
+	}
+	nav ul{
+		display: block;
+	}
 
 	nav ul a{
 		text-decoration: none;
 		color: white;
-		border-right: 1px black solid;
-		padding: 10px 10px 10px 10px;
+		border-right: 0px;
+		padding: 5px 10px 10px 10px;
 	}
 
 	nav ul a:hover{
 		color: black;
 		background-color: white;
-		padding: 10px 10px 10px 10px;
+		padding: 3px 10px 3px 10px;
 	}
 }
