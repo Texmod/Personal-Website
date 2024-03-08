@@ -452,12 +452,14 @@ footer{
 	.info-contact .submit{
 		margin-left: 40%;
 	}
-	
-	.photo-scroll .quote{
-		font-size: 50px;
-		position: absolute;
-	  	top: 20%;
-	  	left: 50%;
-		transform: translate(-50%, -50%);
+
+	.dropdown button{
+		margin-left: 20px;
+		padding: 0px;
+	}
+
+	.photo-scroll{
+		align-items: center;
+		text-align: center;
 	}
 }
