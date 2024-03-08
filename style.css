@@ -328,7 +328,7 @@ footer{
 	}
 	.photo-scroll .quote{
 		font-size: 50px;
-		position: fixed;
+		position: absolute;
 	  	top: 50%;
 	  	left: 50%;
 		transform: translate(-50%, -50%);
@@ -379,8 +379,8 @@ footer{
 	}
 
 	.dropdown button{
-		margin-left: 5px;
-		padding-right: 30px;
+		padding-left: 10px;
+		padding-right: 50px;
 	}
 	.image-container img{
 		max-width: 100%;
