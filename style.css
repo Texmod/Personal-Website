@@ -280,6 +280,7 @@ footer{
 
 .section{
 	display: flex;
+	flex-wrap: nowrap;
 }
 
 .section img{
@@ -330,6 +331,19 @@ footer{
 	}
 	.info-contact .row div{
 		margin-right: 50px;
+	}
+
+	.section{
+		flex-wrap: wrap;
+	}
+
+	.about{
+		width: 100%;
+	}
+
+	.section img{
+		width: 100vw;
+		margin-left: 20px;
 	}
 
 	nav ul a{
