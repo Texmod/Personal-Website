@@ -121,6 +121,7 @@ nav .dropdown:hover .dropdown-options{
 	margin-left: 20px;
 	padding: 0px;
 	cursor: pointer;
+	align-items: left;
 }
 
 .photo-scroll img{
@@ -284,7 +285,8 @@ footer{
 }
 
 .image-container img{
-	object-fit: fill;
+	max-width: 100%;
+	height: auto;
 }
 
 .about{
@@ -382,10 +384,7 @@ footer{
 	.academic{
 		margin-left: 5px;
 	}
-
-	.dropdown button{
-		padding-right: 150px;
-	}
+	
 	.image-container img{
 		max-width: 100%;
 		height: auto;
