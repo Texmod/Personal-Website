@@ -409,7 +409,6 @@ footer{
 		width: 45px;
 		height: 45px;
 	}
-	
 	.title h1{
 		font-size: 20px;
 	}
@@ -452,5 +451,13 @@ footer{
 	
 	.info-contact .submit{
 		margin-left: 40%;
+	}
+	
+	.photo-scroll .quote{
+		font-size: 50px;
+		position: absolute;
+	  	top: 20%;
+	  	left: 50%;
+		transform: translate(-50%, -50%);
 	}
 }
