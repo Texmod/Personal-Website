@@ -32,5 +32,5 @@ function displaylist(){
 	}else{
 		list.style.display = "block";
 		dropdown.style.display = "block";  
-	} 
+	}
 }
