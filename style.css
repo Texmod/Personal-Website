@@ -378,4 +378,8 @@ footer{
 		background-color: white;
 		padding: 3px 10px 3px 10px;
 	}
+
+	.row input{
+		width: 50px;
+	}
 }
