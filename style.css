@@ -131,8 +131,8 @@ nav .dropdown:hover .dropdown-options{
 
 .photo-scroll .quote{
 	font-size: 80px;
-	position: fixed;
-  	top: 50%;
+	position: absolute;
+	top: 50%;
   	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -241,7 +241,7 @@ footer{
 }
 
 .photo-scroll .quote{
-	  position: fixed;
+	  position: absolute;
 	  text-transform: uppercase;
 	  background-image: linear-gradient(
 	    -225deg,
@@ -266,6 +266,11 @@ footer{
   to {
     background-position: 200% center;
   }
+}
+
+#menu{
+	width: 45px;
+	height: 45px;
 }
 
 /*.image-container{
@@ -379,7 +384,7 @@ footer{
 	}
 
 	.dropdown button{
-		padding-right: 50px;
+		padding-right: 150px;
 	}
 	.image-container img{
 		max-width: 100%;
