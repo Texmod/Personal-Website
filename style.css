@@ -464,6 +464,6 @@ footer{
 		position: relative;
 	  	top: 50%;
 	  	left: 50%;
-		transform: translate(-50%, -150%);
+		transform: translate(-50%, -250%);
 	}
 }
