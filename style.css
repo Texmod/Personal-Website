@@ -121,7 +121,6 @@ nav .dropdown:hover .dropdown-options{
 	margin-left: 20px;
 	padding: 0px;
 	cursor: pointer;
-	align-items: left;
 }
 
 .photo-scroll img{
@@ -400,6 +399,19 @@ footer{
 
 	.info h3{
 		margin-left: 25%;
+	}
+
+	.title{
+		gap: 5%;
+	}
+
+	.title img{
+		width: 45px;
+		height: 45px;
+	}
+	
+	.title h1{
+		font-size: 20px;
 	}
 }
 
