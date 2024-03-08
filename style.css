@@ -278,6 +278,10 @@ footer{
 	padding: 10px;
 }
 
+.image-container img{
+	object-fit: contain;
+}
+
 .about{
 	background: rgb(81,55,156);
 	background: linear-gradient(69deg, rgba(81,55,156,1) 0%, rgba(251,119,133,1) 60%, rgba(254,175,132,1) 100%);
@@ -329,6 +333,12 @@ footer{
 	  	left: 50%;
 		transform: translate(-50%, -50%);
 	}
+
+	.academic-info{
+		margin-top: 40px;
+		padding-left: 7px;
+	}
+
 	.info{
 		display: flex;
 		flex-wrap: wrap;
