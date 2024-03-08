@@ -456,5 +456,6 @@ footer{
 		margin-left: 6px;
 		padding-right: 200px;
 		display: flex;
+		white-space: nowrap;
 	}
 }
