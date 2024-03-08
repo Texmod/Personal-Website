@@ -456,12 +456,13 @@ footer{
 	.dropdown button{
 		padding-right: 0px;
 		text-align: left;
+		margin-right: 10px;
 	}
 
 	.photo-scroll .quote{
 		position: relative;
-	  	top: 50%;
-	  	left: 50%;
-		transform: translate(-50%, -50%);
+	  	top: 20%;
+	  	left: 20%;
+		transform: translate(-20%, -20%);
 	}
 }
