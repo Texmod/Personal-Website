@@ -454,12 +454,13 @@ footer{
 	}
 
 	.dropdown button{
-		margin-left: 20px;
-		padding: 0px;
+		padding-right: 50px;
 	}
 
-	.photo-scroll{
-		align-items: center;
-		text-align: center;
+	.photo-scroll .quote{
+		position: relative;
+	  	top: 50%;
+	  	left: 50%;
+		transform: translate(-50%, -50%);
 	}
 }
