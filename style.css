@@ -420,7 +420,7 @@ footer{
 	}
 
 	nav{
-		overflow: none;
+		overflow: hidden;
 		transition: 0.5s;
 		display: block;
 	}
