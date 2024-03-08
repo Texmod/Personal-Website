@@ -79,7 +79,7 @@ nav ul a:hover{
 	padding: 10px 20px 10px 20px;
 }
 
-.menu{
+#menu{
 	display: none;
 }
 
@@ -354,7 +354,7 @@ footer{
 		width: 100vw;
 		margin-left: 20px;
 	}
-	.menu{
+	#menu{
 		display: block;
 		color: white;
 	}
@@ -388,5 +388,9 @@ footer{
 	}
 	.row input{
 		width: 150px;
+	}
+	
+	.info-contact .submit{
+		margin-left: 40%;
 	}
 }

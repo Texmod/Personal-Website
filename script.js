@@ -21,7 +21,7 @@
 // 	container.append(images[i]);
 // }
 
-const menu = document.querySelector(".menu");
+const menu = document.getElementById("menu");
 const list = document.querySelector(".list");
 const dropdown = document.querySelector(".dropdown");
 
