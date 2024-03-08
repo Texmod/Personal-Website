@@ -453,7 +453,7 @@ footer{
 	}
 
 	.dropdown button{
-		margin-left: 10px;
+		margin-left: 12px;
 		padding-right: 100px;
 		display: flex;
 		white-space: nowrap;
@@ -461,8 +461,8 @@ footer{
 
 	.photo-scroll .quote{
 		font-size: 50px;
-		position: absolute;
-	  	top: 0;
-	  	left: 0;
+		position: relative;
+	  	top: 40px;
+	  	left: 40px;
 	}
 }
