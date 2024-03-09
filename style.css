@@ -469,3 +469,11 @@ footer{
 		transform: translate(-50%, -300%);
 	}
 }
+
+@media screen and (pointer:none), (pointer:coarse) and (orientation:landscape){
+	.photo-scroll img{
+		width: 100%;
+		height: 70vh;
+		border-bottom: 1px solid black;
+	}
+}
