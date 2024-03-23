@@ -65,6 +65,7 @@ nav ul a{
 	color: white;
 	border-right: 1px black solid;
 	padding: 10px 20px 10px 20px;
+	transition: all 0.2s linear;
 }
 
 nav ul a:hover{
@@ -421,13 +422,13 @@ footer{
 
 	nav{
 		overflow: hidden;
-		transition: 0.5s;
 		display: block;
+		transition: all 0.5s linear;
 	}
 	nav ul{
 		display: block;
 		overflow: hidden;
-		transition: 0.5s;
+		transition: all 0.5s linear;
 	}
 
 	nav ul a{
