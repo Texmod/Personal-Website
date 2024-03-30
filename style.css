@@ -352,6 +352,8 @@ footer{
 	padding: 50px;
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .assignment-container a{
@@ -368,7 +370,6 @@ footer{
 	width: 200px;
 	height: 300px;
 	margin: 20px;
-	margin-top: 50px;
 	transition: all 0.1s linear;
  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
