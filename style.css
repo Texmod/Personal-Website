@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
 	padding: 0px;
 	margin: 0px;
-	font-family: "Kode Mono", monospace;
-  	font-weight: <weight>;
-  	font-style: normal;
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	scroll-behavior: smooth;
 }
 
 html,body{
@@ -31,6 +34,7 @@ body{
 	border-radius: 10px;
 	background: linear-gradient(69deg, rgba(81,55,156,1) 0%, rgba(251,119,133,1) 60%, rgba(254,175,132,1) 100%);
 	padding: 4px;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .title img:hover{
@@ -48,9 +52,8 @@ nav{
 	flex-wrap: wrap;
 	align-items: center;
 	padding: 10px;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
 	background: rgb(81,55,156);
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	background: linear-gradient(69deg, rgba(81,55,156,1) 0%, rgba(251,119,133,1) 60%, rgba(254,175,132,1) 100%);
 }
 
@@ -63,7 +66,6 @@ nav ul{
 nav ul a{
 	text-decoration: none;
 	color: white;
-	border-right: 1px black solid;
 	padding: 10px 20px 10px 20px;
 	transition: all 0.2s linear;
 }
@@ -127,7 +129,7 @@ nav .dropdown:hover .dropdown-options{
 .photo-scroll img{
 	width: 100%;
 	height: 55vh;
-	border-bottom: 1px solid black;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .photo-scroll .quote{
@@ -160,9 +162,16 @@ nav .dropdown:hover .dropdown-options{
 }
 
 .academic{
-	border: 1px solid black;
 	border-radius: 4px;
 	margin: 10px;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	transition: all 0.1s linear;
+ 	width: 250px;
+ 	height: 300px;
+}
+
+.academic:hover{
+	width: 260px;
 }
 
 .academic,.academic p,.academic img{
@@ -170,8 +179,8 @@ nav .dropdown:hover .dropdown-options{
 }
 
 .academic img{
-	width: 250px;
-	height: 250px;
+	width: 100%;
+	height: auto;
 	position: relative;
 }
 
@@ -189,6 +198,7 @@ nav .dropdown:hover .dropdown-options{
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	background: rgb(81,55,156);
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	background: linear-gradient(69deg, rgba(81,55,156,1) 0%, rgba(251,119,133,1) 60%, rgba(254,175,132,1) 100%);
 }
 
@@ -206,6 +216,7 @@ nav .dropdown:hover .dropdown-options{
 .info-family table{
 	padding: 2px;
 	width: 100%;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .info-family table td{
@@ -227,9 +238,20 @@ nav .dropdown:hover .dropdown-options{
 	margin-right: 100px;
 }
 
+.info-contact .row input{
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	border: 0px;
+	height: 20px;
+}
+
+.info-contact .row input:focus{
+	outline: none;
+}
+
 .info-contact .submit{
 	margin-top: 25px;
 	margin-left: 80%;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer{
@@ -242,25 +264,25 @@ footer{
 }
 
 .photo-scroll .quote{
-	  position: absolute;
-	  text-transform: uppercase;
-	  background-image: linear-gradient(
-	    -225deg,
-	    #231557 0%,
-	    #44107a 29%,
-	    #ff1361 67%,
-	    #fff800 100%
-	  );
-	  background-size: auto auto;
-	  background-clip: border-box;
-	  background-size: 200% auto;
-	  color: #fff;
-	  background-clip: text;
-	  text-fill-color: transparent;
-	  -webkit-background-clip: text;
-	  -webkit-text-fill-color: transparent;
-	  animation: textclip 2s linear infinite;
-	  display: inline-block;
+	position: absolute;
+	text-transform: uppercase;
+	background-image: linear-gradient(
+	-225deg,
+	#231557 0%,
+	#44107a 29%,
+	#ff1361 67%,
+	#fff800 100%
+	);
+	background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 2s linear infinite;
+	display: inline-block;
 }
 
 @keyframes textclip {
@@ -273,12 +295,6 @@ footer{
 	width: 45px;
 	height: 45px;
 }
-
-/*.image-container{
-	overflow: auto;
-	white-space: nowrap;
-	padding: 10px;
-}*/
 
 .image-container{
 	padding: 10px;
@@ -297,16 +313,20 @@ footer{
 	margin-bottom: 10%;
 	border-radius: 4px;
 	width: 100%;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .section{
 	display: flex;
 	flex-wrap: nowrap;
+	padding: 20px;
 }
 
 .section img{
 	width: 650px;
 	margin-left: 20px;
+	border-radius: 10px;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .about .text{
 	width: 90%;
@@ -326,6 +346,36 @@ footer{
 .cv-button a{
 	text-decoration: none;
 	color: black;
+}
+
+.assignment-container{
+	text-align: center;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.assignment-container a{
+	text-decoration: none;
+	color: white;
+}
+
+.assignment-container .box img{
+	width: 100%;
+	height: 100%;
+}
+
+.assignment-container .box{
+	width: 200px;
+	height: 300px;
+	margin: 20px;
+	margin-top: 50px;
+	transition: all 0.1s linear;
+}
+
+.assignment-container .box:hover{
+	width: 210px;
+	height: 310px;
 }
 
 @media only screen and (max-width: 900px){
