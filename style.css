@@ -371,6 +371,7 @@ footer{
 	margin: 20px;
 	margin-top: 50px;
 	transition: all 0.1s linear;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .assignment-container .box:hover{
@@ -394,6 +395,10 @@ footer{
 	.academic-info{
 		margin-top: 40px;
 		padding-left: 0px;
+	}
+	
+	.academic{
+		margin-bottom: 10px;
 	}
 
 	.info{
