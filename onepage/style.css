@@ -492,16 +492,16 @@ footer{
 		padding: 20px;
 	}
 	#notes .container{
-		margin-left: 20px;
+		margin-left: 0px;
 	}
 	#members .container{
-		margin-left: 20px;
+		margin-left: 0px;
 	}
 	#gallery .container{
-		margin-left: 20px;
+		margin-left: 0px;
 	}
 	#subscribe .messagebox{
-		margin-left: 10%;
+		margin-left: 0px
 	}
 	#contact{
 		flex-wrap: wrap;
