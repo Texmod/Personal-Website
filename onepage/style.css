@@ -56,6 +56,7 @@ nav ul li a:hover{
 	background: #f2f2f2;
 	display: flex;
 }
+
 .welcome h1{
 	margin-bottom: 20px;
 	color: #36454f;
@@ -368,4 +369,71 @@ footer{
 	background: #dcf2f7;
 	padding: 10px 0px 10px 0px;
 	color: black;
+}
+
+@media (max-width: 900px){
+	.nav-right{
+		margin-left: 10px;
+	}
+	nav ul{
+		flex-wrap: wrap;
+	}
+	#home{
+		flex-wrap: wrap-reverse;
+	}
+	.welcome{
+		width: 100%;
+		padding: 100px 0px 100px 20px;
+	}
+	.banner img{
+		width: 100%;
+		margin-left: 10px;
+	}
+	#team{
+		flex-wrap: wrap;
+	}
+	.video{
+		width: 100%;
+	}
+	.info{
+		width: 100%;
+		margin-left: 5px;
+	}
+	.numbers ul{
+		flex-wrap: wrap;
+	}
+
+	.numbers ul li{
+		margin-right: 35px;
+	}
+	#company{
+		padding: 30px;
+	}
+	#company h3{
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 50px;
+		display: flex;
+	}
+	#notes{
+		padding: 20px;
+	}
+	#notes .container{
+		margin-left: 120px;
+	}
+	#members .container{
+		margin-left: 120px;
+	}
+	#gallery .container{
+		margin-left: 120px;
+	}
+	#subscribe .messagebox{
+		margin-left: 17%;
+	}
+	#contact{
+		flex-wrap: wrap;
+	}
+	#contact .container{
+		margin-right: 20px;
+	}
 }
