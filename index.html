@@ -16,7 +16,7 @@
 	</div>
 	<nav>
 		<img id="menu" src="images/menu.png" onclick="displaylist()">
-		<ul class="list">
+		<ul>
 			<li><a href="#" class="options">Home</a></li>
 			<li><a href="about.html" class="options">About</a></li>
 			<li><a href="gallery.html" class="options">Gallery</a></li>
@@ -36,8 +36,8 @@
 		<img src="images/landscape.jpg">
 		<p class="quote">Welcome</p>
 	</div>
-	<h3 id="title-academic">Academic Info</h3>
 	<div class="academic-info">
+		<h3 id="title-academic">Academic Info</h3>
 		<div class="photo-academic">
 			<div class="academic">
 				<a href="https://www.avm.edu.np" target="_blank"><img src="images/avm.jpg">
@@ -51,6 +51,42 @@
 				<a href="https://nagarjunacollege.edu.np" target="_blank"><img src="images/ncit.jpg">
 				<p>Bachelor<br>NCIT<br>Sankhamul, Lalitpur</p></a>
 			</div>		
+		</div>
+	</div>
+	<div id="team">
+		<div class="video">
+			<video controls autoplay>
+				<source src="onepage/assets/video.mp4" type="video/mp4">
+			</video>
+		</div>
+
+		<div class="info-list">
+			<h1>Information</h1>
+			<p>These are some of the things about me. These are the things I like to do and I 
+			   am currently persuing. These are some of the things that may let you know more
+			   about me.
+			</p>
+			<div class="list">
+				<img src="images/game.png">
+				<fieldset>
+					<legend><h4>Video Games</h4></legend>
+					<p>I like playing video games. Some of my favourite video games include GTA SA, Counter Strike.</p>
+				</fieldset>
+			</div>
+			<div class="list">
+				<img src="images/code.png">
+				<fieldset>
+					<legend><h4>Coding</h4></legend>
+					<p>I like coding in different languages like lua, java, c. I like working on my own projects.</p>
+				</fieldset>
+			</div>
+			<div class="list">
+				<img src="images/travel.png">
+				<fieldset>
+					<legend><h4>Travelling</h4></legend>
+					<p>I like to travel to differnt places and experience new things.</p>
+				</fieldset>
+			</div>
 		</div>
 	</div>
 	<div class="info">
@@ -83,22 +119,22 @@
 			<h3>Contact Form</h3>
 			<form>
 				<div class="row">
-					<div>
-						<label>Name</label></br>
+					<div class="col">
+						<label>Name</label>
 						<input type="text" name="name">
 					</div>
-					<div>
-						<label>PhoneNo</label></br>
+					<div class="col">
+						<label>PhoneNo</label>
 						<input type="number" name="phoneno">
 					</div>
 				</div>
 				<div class="row">
-					<div>
-						<label>Gmail</label></br>
+					<div class="col">
+						<label>Gmail</label>
 						<input type="text" name="gmail">
 					</div>
-					<div>
-						<label>Website</label></br>
+					<div class="col">
+						<label>Website</label>
 						<input type="text" name="website">
 					</div>
 				</div>
@@ -107,7 +143,7 @@
 		</div>
 	</div>
 	<footer>
-		<h3>Copyright @ 2024 Swachha Raj Baidya</h3>
+		<h3>Copyright &copy; 2024 Swachha Raj Baidya</h3>
 	</footer>
 	<script type="text/javascript" src="script.js"></script>
 </body>

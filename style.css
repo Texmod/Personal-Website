@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
-	padding: 0px;
 	margin: 0px;
-	font-family: "Raleway", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: <weight>;
+	padding: 0px;
 	font-style: normal;
+	font-weight: <weight>;
 	scroll-behavior: smooth;
+	font-optical-sizing: auto;
+	font-family: "Raleway", sans-serif;
 }
 
 html,body{
@@ -16,30 +15,30 @@ html,body{
 }
 
 body{
+	color: white;
 	background: rgb(33,32,30);
 	background: linear-gradient(168deg, rgba(33,32,30,1) 0%, rgba(119,119,119,1) 98%);
-	color: white;
 }
 
 .title{
-	display: flex;
-	align-items: center;
 	gap: 30%;
 	padding: 10px;
+	display: flex;
+	align-items: center;
 }
 
 .title img{
 	width: 90px;
 	height: 90px;
-	border-radius: 10px;
-	background: linear-gradient(69deg, rgba(81,55,156,1) 0%, rgba(251,119,133,1) 60%, rgba(254,175,132,1) 100%);
 	padding: 4px;
+	border-radius: 10px;
  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background: linear-gradient(69deg, rgba(81,55,156,1) 0%, rgba(251,119,133,1) 60%, rgba(254,175,132,1) 100%);
 }
 
 .title img:hover{
-	transition: background .15s linear .1;
 	transition-delay: 3s;
+	transition: background .15s linear .1;
 	background: linear-gradient(-69deg, rgba(81,55,156,1) 0%, rgba(251,119,133,1) 60%, rgba(254,175,132,1) 100%);
 }
 
@@ -48,35 +47,28 @@ img{
 }
 
 nav{
+	padding: 10px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	padding: 10px;
-	background: rgb(81,55,156);
  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	background: linear-gradient(69deg, rgba(81,55,156,1) 0%, rgba(251,119,133,1) 60%, rgba(254,175,132,1) 100%);
 }
 
 nav ul{
 	display: flex;
-	align-items: center;
 	list-style: none;
+	align-items: center;
 }
 
 nav ul a{
-	text-decoration: none;
 	color: white;
+	text-decoration: none;
 	padding: 10px 20px 10px 20px;
 	transition: all 0.2s linear;
 }
 
 nav ul a:hover{
-	color: black;
-	background-color: white;
-	padding: 10px 20px 10px 20px;
-}
-
-.active{
 	color: black;
 	background-color: white;
 	padding: 10px 20px 10px 20px;
@@ -92,38 +84,38 @@ nav .dropdown{
 }
 
 nav .dropdown-options{
-	display: none;
-	position: absolute;
-	overflow: auto;
 	color: black;
+	display: none;
+	overflow: auto;
+	position: absolute;
 }
 
 nav .dropdown:hover .dropdown-options{
-	display: block;
 	color: black;
+	display: block;
 	background: white;
 	border: 1px black solid;
 	padding: 10px 20px 20px 20px;
 }
 
 .dropdown-options a{
-	text-decoration: none;
 	color: black;
+	text-decoration: none;
 }
 
 .dropdown-options a:hover{
-	text-decoration: none;
 	color: black;
+	text-decoration: none;
 	background: linear-gradient(69deg, rgba(81,55,156,1) 0%, rgba(251,119,133,1) 60%, rgba(254,175,132,1) 100%);
 }
 
 .dropdown button{
 	border: none;
 	color: white;
-	background: transparent;
-	margin-left: 20px;
 	padding: 0px;
 	cursor: pointer;
+	margin-left: 20px;
+	background: transparent;
 }
 
 .photo-scroll img{
@@ -133,21 +125,22 @@ nav .dropdown:hover .dropdown-options{
 }
 
 .photo-scroll .quote{
-	font-size: 80px;
-	position: absolute;
 	top: 50%;
   	left: 50%;
+	font-size: 80px;
+	position: absolute;
 	transform: translate(-50%, -50%);
 }
 
 #title-academic{
-	margin: 20px 0px 10px 0px;
-	margin-left: 45%;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 .academic-info{
-	margin-top: 40px;
 	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 50px;
 }
 
 .photo-academic{
@@ -162,12 +155,12 @@ nav .dropdown:hover .dropdown-options{
 }
 
 .academic{
-	border-radius: 4px;
 	margin: 10px;
- 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- 	transition: all 0.1s linear;
  	width: 250px;
  	height: 300px;
+	border-radius: 4px;
+ 	transition: all 0.1s linear;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .academic:hover{
@@ -185,17 +178,58 @@ nav .dropdown:hover .dropdown-options{
 }
 
 .academic p{
+	cursor: pointer;
+	padding: 0px 0px 5px 10px;
 	background: rgb(81,55,156);
 	background: linear-gradient(69deg, rgba(81,55,156,1) 0%, rgba(251,119,133,1) 60%, rgba(254,175,132,1) 100%);
-	padding: 0px 0px 5px 10px;
-	cursor: pointer;
+}
+
+#team{
+	display: flex;
+	padding: 50px;
+	background: rgb(33,32,30);
+}
+
+.video{
+	width: 50%;
+}
+
+.video video{
+	width: 100%;
+	height: 100%;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info-list{
+	width: 50%;
+	margin-left: 30px;
+	text-align: justify;
+}
+
+.info-list h1{
+	color: white;
+	margin-bottom: 10px;
+}
+
+.list{
+	display: flex;
+	margin-top: 20px;
+	align-items: center;
+}
+
+.list img{
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.list fieldset{
+	padding-top: 5px;
+	border: 0px;
 }
 
 .info{
-	margin-top: 50px;
 	display: flex;
 	flex-wrap: nowrap;
-	border-bottom: 1px solid black;
 	background: rgb(81,55,156);
  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	background: linear-gradient(69deg, rgba(81,55,156,1) 0%, rgba(251,119,133,1) 60%, rgba(254,175,132,1) 100%);
@@ -208,13 +242,13 @@ nav .dropdown:hover .dropdown-options{
 }
 
 .info h3{
+	text-align: center;
 	margin-bottom: 10px;
-	margin-left: 35%;
 }
 
 .info-family table{
-	padding: 2px;
 	width: 100%;
+	padding: 2px;
  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -229,8 +263,8 @@ nav .dropdown:hover .dropdown-options{
 .info-contact .row{
 	display: flex;
 	margin-top: 20px;
-	margin-right: 20px;
 	margin-left: 10%;
+	margin-right: 20px;
 }
 
 .info-contact .row div{
@@ -238,28 +272,41 @@ nav .dropdown:hover .dropdown-options{
 }
 
 .info-contact .row input{
- 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  	border: 0px;
 	height: 20px;
+	transition: all 0.2s linear;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .info-contact .row input:focus{
+	height: 25px;
 	outline: none;
 }
 
+.info-contact .col{
+	display: block;
+}
 .info-contact .submit{
+	border: 0px;
+	padding: 8px;
+	border-radius: 4px;
+	cursor: pointer;
 	margin-top: 25px;
-	margin-left: 80%;
+	margin-left: 70%;
+	transition: all 0.2s linear;
  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.info-contact .submit:hover{
+	background: orange;
+}
+
 footer{
-	width: 100%;
-	text-align: center;
 	padding: 5px;
+	padding: 10px;
+	text-align: center;
 	background: rgb(33,32,30);
 	background: linear-gradient(168deg, rgba(33,32,30,1) 78%, rgba(119,119,119,1) 100%);
-	padding: 10px;
 }
 
 .photo-scroll .quote{
@@ -305,14 +352,13 @@ footer{
 }
 
 .about{
-	background: rgb(81,55,156);
-	background: linear-gradient(69deg, rgba(81,55,156,1) 0%, rgba(251,119,133,1) 60%, rgba(254,175,132,1) 100%);
+	width: 100%;
 	margin-top: 5%;
 	margin-left: 2%;
 	margin-bottom: 10%;
 	border-radius: 4px;
-	width: 100%;
  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background: linear-gradient(69deg, rgba(81,55,156,1) 0%, rgba(251,119,133,1) 60%, rgba(254,175,132,1) 100%);
 }
 
 .section{
@@ -327,38 +373,49 @@ footer{
 	border-radius: 10px;
  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .about .text{
 	width: 90%;
 	color: white;
-	background: rgb(33,32,30);
 	padding: 20px;
+	background: rgb(33,32,30);
 }
+
 .about .text p{
 	text-align: justify;
 }
 
 .cv-button{
+	border: 0px;
+	padding: 8px;
+	cursor: pointer;
 	margin-top: 10px;
+	border-radius: 4px;
 	padding: 10px 5px 10px 5px;
+	transition: all 0.2s linear;
+}
+
+.cv-button:hover{
+	background: orange;
 }
 
 .cv-button a{
-	text-decoration: none;
 	color: black;
+	text-decoration: none;
 }
 
 .assignment-container{
-	text-align: center;
 	padding: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 50px;
+	text-align: center;
 	margin-bottom: 50px;
 }
 
 .assignment-container a{
-	text-decoration: none;
 	color: white;
+	text-decoration: none;
 }
 
 .assignment-container .box img{
@@ -367,9 +424,9 @@ footer{
 }
 
 .assignment-container .box{
+	margin: 20px;
 	width: 200px;
 	height: 300px;
-	margin: 20px;
 	transition: all 0.1s linear;
  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -398,7 +455,7 @@ footer{
 	}
 	
 	.academic{
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 	}
 
 	.info{
@@ -430,11 +487,6 @@ footer{
 		margin-right: 10px;
 	}
 
-	#title-academic{
-		margin: 20px 0px 10px 0px;
-		margin-left: 30%;
-	}
-
 	.academic{
 		margin-left: 5px;
 	}
@@ -452,10 +504,6 @@ footer{
 		width: 80%;
 	}
 
-	.info h3{
-		margin-left: 25%;
-	}
-
 	.title{
 		gap: 5%;
 	}
@@ -466,6 +514,18 @@ footer{
 	}
 	.title h1{
 		font-size: 20px;
+	}
+
+	#team{
+		flex-wrap: wrap;
+	}
+
+	#team .video, #team .info-list{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	#team .info-list{
+		margin-left: 0px;
 	}
 }
 
