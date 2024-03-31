@@ -1,5 +1,5 @@
 const menu = document.getElementById("menu");
-const list = document.querySelector(".list");
+const list = document.querySelector(".nav-options");
 const dropdown = document.querySelector(".dropdown");
 
 function displaylist(){
