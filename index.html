@@ -8,8 +8,11 @@
 	<meta name="author" content="Swachha Raj Baidya">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="script" type="text/php" href="contact-form.php">
 </head>
 <body>
+	<?php include('contact-form.php') ?>
+	
 	<div class="title">
 		<img src="images/jack.png">
 		<h1>Swachha Raj Baidya</h1>
@@ -117,25 +120,29 @@
 		</div>
 		<div class="info-contact" id="info-contact">
 			<h3>Contact Form</h3>
-			<form>
+			<form action="contact-form.php" method="POST">
 				<div class="row">
 					<div class="col">
-						<label>Name</label>
+						<label for="name">Name</label>
 						<input type="text" name="name">
+						<span style="color: red;"><?= echo $namemsg ?></span>
 					</div>
 					<div class="col">
-						<label>PhoneNo</label>
+						<label for="phoneno">PhoneNo</label>
 						<input type="number" name="phoneno">
+						<span style="color: red;"><?= echo $phonemsg ?></span>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col">
-						<label>Gmail</label>
-						<input type="text" name="gmail">
+						<label for="email">Gmail</label>
+						<input type="text" name="email">
+						<span style="color: red;"><?= echo $emailmsg ?></span>
 					</div>
 					<div class="col">
-						<label>Website</label>
+						<label for="website">Website</label>
 						<input type="text" name="website">
+						<span style="color: red;"><?= echo $websitemsg ?></span>
 					</div>
 				</div>
 				<input type="submit" name="Submit" class="submit">
