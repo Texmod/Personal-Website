@@ -3,6 +3,7 @@
 	$password = 'gta5gamer1';
 	$hostname = 'fdb1032.awardspace.net';
 	$database = '4453422_contact';
+	$port = '3306';
 
 
 	$name = $_POST['name'];
@@ -32,7 +33,8 @@
 		$connect = mysqli_connect(username: $username,
 							  	  password: $password,
 							  	  hostname: $hostname,
-							  	  database: $database
+							  	  database: $database.
+					  			  port: $port
 							 	 );
 
 		if($connect){
