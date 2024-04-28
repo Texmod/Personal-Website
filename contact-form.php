@@ -1,8 +1,8 @@
 <?php
-	$username = 'root';
-	$password = '';
-	$hostname = 'localhost';
-	$database = 'contact_db';
+	$username = '4453422_contact';
+	$password = 'gta5gamer1';
+	$hostname = 'fdb1032.awardspace.net';
+	$database = '4453422_contact';
 
 
 	$name = $_POST['name'];
